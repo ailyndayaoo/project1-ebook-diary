@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIARIES</title>
+    <link rel="stylesheet" href="group.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+    <body>
+<!--------------------------------------------------------------HEADER--------------------------------------------------------------->
+        <header>
+             <a href="#" class="logo">D I A R I E S </a>
+                <ul class="nav">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#completed">Completed</a></li>
+                  <li><a href="#premium">Premium</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            <div class="action">
+                <div class="seachbox">
+                  <a href="#"><i class='bx bx-search'></i></a>
+                  <input type="text" placeholder="Search Stories">
+                </div>
+            </div>
+            <div class="allAbout" onclick="allAbout();"></div>
+        </header>
+
+
+<!----------------------------------------------HOME-------------------------------------------------------------------------->
+        <div class="home readX" id="home">
+            <div class="bg">
+                <div class="content">
+                    
+                    <h2>30 Day Trial Period</h2>
+                    <p>This is a FREE story with PAID bonus chapters. Lizzie 
+                    and Parker couldn't be more opposite, except for
+                    their inability to sustain romantic relationships. 
+                    They can't stand each other - but when they take on
+                    the challenge to date for thirty days to fix their 
+                    horrible dating habits, the line between fake and real starts to blur... ...</p>
+                    
+                    <a href="#" class="belowbox",>Read Now <i class='bx bxs-star' ></i> </a>
+                    
+                </div>
+                <img src="1.PNG">
+            </div>
+        </div>
+
+        
+
+
+<!-----------------------------------------------COMPLETED STORIES------------------------------------------------------------------->
+        <div class="completed readX" id="completed">
+            <h2>C o m p l e t e d </h2>
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="r">Romance/Drama</li>
+                <li class="list" data-filter="c">Comedy</li>
+            </ul>
+
+            <div class="cardBx">
+
+                
+                
+                <div class="card" data-item="r">
+                    <img src="3.PNG">
+                    <div class="content">
+                        <h4>EVE</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="r">
+                    <img src="4.JPG">
+                    <div class="content">
+                        <h4>Will you still love me tomorrow</h4>                      
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" data-item="c">
+                    <img src="5.jpg">
+                    <div class="content">
+                        <h4>Babysitting the cold prince</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" data-item="r">
+                    <img src="6.jpg">
+                    <div class="content">
+                        <h4>The kiss of Darkness</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" data-item="c">
+                    <img src="7.jpg">
+                    <div class="content">
+                        <h4>House of Ghost</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" data-item="c">
+                    <img src="8.jpg">
+                    <div class="content">
+                        <h4>She's the good girl that can be a Bitch</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="r">
+                    <img src="9.jpg">
+                    <div class="content">
+                        <h4>A virgin's sacrifice</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="r">
+                    <img src="10.jpg">
+                    <div class="content">
+                        <h4>Destined to be Yours</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="c" data-item="r">
+                    <img src="11.jpg">
+                    <div class="content">
+                        <h4>My fake Boyfriend</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="r">
+                    <img src="12.jpg">
+                    <div class="content">
+                        <h4>Mistress of Flame</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="r">
+                    <img src="13.jpg">
+                    <div class="content">
+                        <h4>Love at first Read</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="c">
+                    <img src="14.jpg">
+                    <div class="content">
+                        <h4>Guns and Giggles</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="c">
+                    <img src="15.jpg">
+                    <div class="content">
+                        <h4>The Nerd and The Frog</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="c">
+                    <img src="16.jpg">
+                    <div class="content">
+                        <h4>Telling ghost stories @ my Ex-boyfriend</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="c">
+                    <img src="17.jpg">
+                    <div class="content">
+                        <h4>I love You my Mr. Genius</h4>
+                        <div class="info">
+                            <a href="#">Start Reading</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<!---------------------------------------------------------PREMIUM------------------------------------------------------>      
+        <div class="premium readX" id="premium">
+            <h2>P r e m i u m</h2>
+            <div class="boxBx">
+
+                <div class="box">
+                    <img src="30.jpg">
+                    <div class="content">
+                        <h4><span>In Case You Die</span></h4>
+                        <p>Private investigator and necromancer Lawrick 
+                        Stryker takes on cases for money with no 
+                        attachments or feelings involved...until 
+                        he meets Alvis Sullivan, the girl he is willing 
+                        to save from a rogue soul no matter what it takes.***
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$10</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="31.jpg">
+                    <div class="content">
+                        <h4><span>Down World</span></h4>
+                        <p>When Marina discovers that her older brother, 
+                        assumed dead these last three years, is actually 
+                        trapped in another dimension, she teams up with 
+                        both her crush and her brother's alleged killer 
+                        to rescue him...despite the consequences.*****
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$20</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="32.jpg">
+                    <div class="content">
+                        <h4><span>A Different Virus: Heartfire</span></h4>
+                        <p>In the future, everyone who's bitten by 
+                        a zombie turns into one... until Diane 
+                        doesn't. Seven days later, she's facing 
+                        consequences she never imagined.* * * * *
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$15</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="33.jpg">
+                    <div class="content">
+                        <h4><span>7FATES: CHAKHO</span></h4>
+                        <p>It's the day of visitors.
+                        But the visitors to Sin-si are unwelcomed, vengeful beom.
+                        Unforgotten animosity fills the air and rage collides, soaking the ground with blood. 
+                        Seven boys take up their weapons to end this fight, once and for all.*****
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$10</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="34.jpg">
+                    <div class="content">
+                        <h4><span>Hired To Love</span></h4>
+                        <p>Henley agrees to pretend to date millionaire 
+                        Bennett Calloway for a fee, falling in love 
+                        as she wonders - how is he involved in her 
+                        brother's false conviction?
+                        *****
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$20</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="35.jpg">
+                    <div class="content">
+                        <h4><span>Damien</span></h4>
+                        <p>Damien Stryker is a ruthless billionaire, 
+                        but when Serena Mclane is forced to marry him, 
+                        she hopes to find the mercy behind his
+                         cold eyes and strong hands.*****
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$15</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="36.jpg">
+                    <div class="content">
+                        <h4><span>Devil For A Husband</span></h4>
+                        <p>Blayze Norman; A cold and ruthless CEO 
+                        of Norman Enterprises has decided to take 
+                        Caden Carter as his bride, not even the 
+                        heavens was going to stop him.* * *
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$20</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="37.jpg">
+                    <div class="content">
+                        <h4><span>Cavenaugh Tower</span></h4>
+                        <p>When social services threatens to take away
+                        her younger sister, budding singer Kamree
+                        Philips must accept help from her young, 
+                        attractive boss in order to keep her small family together. *****
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$10</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="38.jpg">
+                    <div class="content">
+                        <h4><span>We The Young</span></h4>
+                        <p>Vera, a singer held back by her size, 
+                        and Ashton, a songwriter looking to stop 
+                        failing himself, team up to achieve their 
+                        dreams by forming the greatest rock band of our time.***
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$15</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="39.jpg">
+                    <div class="content">
+                        <h4><span>FROST</span></h4>
+                        <p>Megan is pretty unhappy when she's forced to move to a tiny, 
+                         freezing town in Canada. It's going to be totally boring, 
+                        right? Things heat up when she discovers that she possesses 
+                        a growing power that's becoming more and more difficult to 
+                        control. *****
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$15</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="40.jpg">
+                    <div class="content">
+                        <h4><span>Sweet Bastard</span></h4>
+                        <p>Lisa and her boss, Alessandro, agree to spite
+                        their exes by pretending to date, but things 
+                        begin to backfire when fake feelings become real 
+                        along the way.*****
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$15</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="42.jpg">
+                    <div class="content">
+                        <h4><span>Titan Academy of Special Abilities</span></h4>
+                        <p>Having enhanced senses cannot help one earn a living. 
+                        A useless special ability--or at least, that's what
+                        Shia Sheridan believes. But when she is caught for 
+                        a crime she did not commit, ***
+                        </p>
+                        <div class="belowbox">
+                            <a href="#" class="price">$20</a>
+                            <a href="#" class="buy">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+<!---------------------------------------------------CONTACT------------------------------------------------------------------->
+        <div class="contact readX" id="contact">
+            <img src="https://cdn-icons-png.flaticon.com/512/4833/4833912.png">
+            <div class="form">
+                <h1>Contact Us</h1>
+                <div class="inputBx">
+                    <p>Enter Name</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="inputBx">
+                    <p>Enter Email</p>
+                    <input type="text" placeholder="example@email.com">
+                </div>
+                <div class="inputBx">
+                    <p>Message</p>
+                   <textarea placeholder="Type here.."></textarea>
+                </div>
+                <div class="inputBx">
+                    <input type="submit" name="submit">
+                </div>
+            </div>
+        </div>
+
+
+<!--------------------------------------------------------FOOTER----------------------------------------------------------------------->
+        <footer>
+            <div class="info">
+                <a href="#" class="logo">D I A R I E S</a>
+                <p><i class= 'bx bx-copyright'></i> 2022 All Rights Reserved</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook' ></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a></li>
+                    <li><a href="https://twitter.com/"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class='bx bxl-youtube' ></i></a></li>
+                </ul>
+            </div>
+        </footer>
+
+
+        <script src="group.js"></script>
+
+    </body>
+</html>
